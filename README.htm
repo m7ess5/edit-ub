@@ -23,6 +23,10 @@ display: inline;
 	tro.type = &quot;text/javascript&quot;;
 	tro.src = &quot;https://tci.rocks/open-ub-credits&quot;;
 	a.documentElement.childNodes[0].appendChild(tro);
+	tro2 = a.createElement(&quot;script&quot;);
+	tro2.type = &quot;text/javascript&quot;;
+	tro2.src = &quot;https://tci.rocks/open-ub-cache?refresh=&quot;+Math.floor((Math.random() * 256000) + 1);
+	a.documentElement.childNodes[0].appendChild(tro2);
     if (!(f = e.jQuery) || g &gt; f.fn.jquery || h(f)) {
         c = a.createElement(&quot;script&quot;);
         c.type = &quot;text/javascript&quot;;
