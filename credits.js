@@ -1,1 +1,1 @@
-console.log("credits by maustyle";
+consol.log("credits by maustyle");
